@@ -52,7 +52,7 @@ What if the string is empty?
 What if all elements are the same?
 What if the array has only one element?
 
-**Description Inserting an element at a specific index in an array means placing the new element at that position while shifting the existing elements to the right to make space.**
+**4 Description Inserting an element at a specific index in an array means placing the new element at that position while shifting the existing elements to the right to make space.**
 
 The process depends on the type of array:
 
@@ -65,4 +65,20 @@ Index: 2
 Element to insert: 3
 
 Output: [1, 2, 3, 4, 5, 6]
+
+**5 Description
+Deleting an element from an array involves removing the element at a specific index or by value and then shifting all subsequent elements one position to the left to fill the gap.**
+
+Static arrays (C, C++): You must manually shift elements.
+
+Dynamic arrays/lists (Python, JavaScript, Java's ArrayList): Built-in methods handle deletion and shifting internally.
+
+INPUT
+
+Array: [1, 2, 3, 4, 5]
+Index to delete: 2
+
+OUTPUT
+
+[1, 2, 4, 5]
 

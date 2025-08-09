@@ -1,0 +1,27 @@
+Here’s a clear GitHub step-by-step guide for your
+6-question-5-how-do-you-delete-an-element-from-an-array branch workflow:
+
+GitHub Steps (Terminal Commands)
+1. Fetch Latest Remote Data
+git fetch origin
+
+2. Create and Switch to New Branch
+git checkout -b "6-question-5-how-do-you-delete-an-element-from-an-array"
+
+3. Add Your Code & Stage Changes
+git add .
+
+4. Commit Changes
+git commit -m "Added solution for deleting an element from an array"
+
+5. Push New Branch to GitHub
+git push origin "6-question-5-how-do-you-delete-an-element-from-an-array"
+
+6. Switch Back to master
+git checkout master
+
+7. Merge Branch into master
+git merge "6-question-5-how-do-you-delete-an-element-from-an-array"
+
+8. Push Updated master to GitHub
+git push origin master

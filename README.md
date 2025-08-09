@@ -51,3 +51,18 @@ What if the string is empty?
 
 What if all elements are the same?
 What if the array has only one element?
+
+**Description Inserting an element at a specific index in an array means placing the new element at that position while shifting the existing elements to the right to make space.**
+
+The process depends on the type of array:
+
+Static arrays (like in C, C++): Manual shifting is required.
+
+Dynamic arrays (like in Python, JavaScript, Java's ArrayList): Built-in functions handle shifting internally.
+
+Array: [1, 2, 4, 5, 6]  
+Index: 2  
+Element to insert: 3
+
+Output: [1, 2, 3, 4, 5, 6]
+

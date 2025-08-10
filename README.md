@@ -79,6 +79,22 @@ Array: [1, 2, 3, 4, 5]
 Index to delete: 2
 
 OUTPUT
-
 [1, 2, 4, 5]
+
+**6. Description
+Given a string, find the first character that does not repeat and return its index. If it doesn’t exist, return -1.**
+
+This problem tests:
+
+Hashing (using a Array)
+
+Time complexity optimization (target: O(n))
+
+String traversal logic
+
+**INPUT : "amazon" **
+**OUTPUT : 0 **
+
+**INPUT : "swiss" **
+**OUTPUT : 1 **
 
